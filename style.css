@@ -94,7 +94,7 @@ header nav img {
     height: 60vh;
     position: relative;
     overflow: hidden;
-    max-width: 900px;
+    max-width: 1200px;
     display: block;
     margin: auto;
 }
@@ -218,6 +218,7 @@ footer p {
     padding: 5px;
     font-weight: 400;
 }
+
 
 
 
