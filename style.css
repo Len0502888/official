@@ -106,7 +106,7 @@ header nav img {
     width: 100%;
     height: 100%;
     opacity: 0;
-    animation: fade 95s infinite;
+    animation: fade 120s infinite;
 }
 
 .スライド:nth-child(1){ animation-delay: 0s; }
@@ -224,6 +224,7 @@ footer p {
     padding: 5px;
     font-weight: 400;
 }
+
 
 
 
