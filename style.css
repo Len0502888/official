@@ -157,7 +157,7 @@ main img {
    概要・情報
 ============================== */
 .概要 .枠 {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     font-weight: 700;
     font-size: 17px;
@@ -225,6 +225,7 @@ footer p {
     padding: 5px;
     font-weight: 400;
 }
+
 
 
 
