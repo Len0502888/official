@@ -1,0 +1,241 @@
+/* ==============================
+   リセット・基本スタイル
+============================== */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+
+/* ==============================
+   見出し
+============================== */
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px
+}
+
+h1 a img {
+    width: 100%;
+    max-width: 260px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 30px;
+    font-size: 37px;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 35px;
+    font-size: 22px;
+}
+
+h4 {
+    color: rgb(148, 148, 148);
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: auto;
+}
+
+h5 {
+    text-align: center;
+    color: rgb(150, 150, 150);
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+h6 {
+    text-align: center;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* ==============================
+   ヘッダー
+============================== */
+header {
+    background-image: url(images/背景6.jpg);
+}
+
+header .枠 {
+    background-image: url(images/背景6.jpg);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav img {
+    max-width: 80px;
+    padding-bottom: 5px;
+}
+
+/* ==============================
+   スライドショー
+============================== */
+.スライドショー {
+    padding-top: 30px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    max-width: 1000px;
+    height: 25vh; 
+    display: block;
+    margin: auto;
+}
+
+.スライド {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: fade 110s infinite;
+}
+
+.スライド:nth-child(1){ animation-delay: 0s; }
+.スライド:nth-child(2){ animation-delay: 15s; }
+.スライド:nth-child(3){ animation-delay: 30s; }
+.スライド:nth-child(4){ animation-delay: 45s; }
+.スライド:nth-child(5){ animation-delay: 60s; }
+.スライド:nth-child(6){ animation-delay: 75s; }
+.スライド:nth-child(7){ animation-delay: 90s; }
+.スライド:nth-child(8){ animation-delay: 105s; }
+
+@keyframes fade {
+    0%, 10% { opacity: 0; }     /* フェードイン前 */
+    10%, 50% { opacity: 1; }    /* 表示（長め） */
+    50%, 60% { opacity: 0; }    /* フェードアウト */
+    60%, 100% { opacity: 0; }   /* 次の画像を待つ */
+}
+
+
+/* ==============================
+   メイン
+============================== */
+main {
+    background-image: url(images/背景6.jpg);
+}
+
+main img {
+    width: 100%;
+    max-width: 1500px;
+    display: block;
+    margin: auto;
+}
+
+/* ==============================
+   枠の共通設定
+============================== */
+.枠1, .枠2, .枠3, .枠4, .枠5, .枠6, .枠7 {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.枠2, .枠3, .枠4, .枠5, .枠6, .枠7 {
+    padding-top: 35px;
+}
+
+/* ==============================
+   概要・情報
+============================== */
+.概要 .枠 {
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+main .情報 {
+    background-image: url(images/背景6.jpg);
+}
+
+.情報テキスト {
+    text-align: center;
+    font-size: 37px;
+    font-weight: 640;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.情報 img {
+    width: 100%;
+    max-width: 135px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+}
+
+.情報 li {
+    text-align: center;
+    margin: 10px;
+    list-style: none;
+}
+
+.情報 li a {
+    color: black;
+}
+
+.情報 p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+
+/* ==============================
+   テーブル
+============================== */
+main .年間行事 table,
+main .情報 table {
+    margin: auto;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+main .年間行事 table td,
+main .情報 table td {
+    padding: 10px 15px;
+}
+
+.運営 td{
+   font-size: 15px;
+   font-weight: 550;
+   text-align: center;
+   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.運営{
+    padding: 15px;
+    
+}
+
+/* ==============================
+   フッター
+============================== */
+footer p {
+    background-color: rgb(97, 97, 97);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: 400;
+}
+
+
