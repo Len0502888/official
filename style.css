@@ -228,6 +228,7 @@ main {
   color: var(--accent, #1b2a3a);
   font-size: 20px;
   padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 .light {
@@ -423,6 +424,7 @@ footer a:hover {
   color: #111;
 
 }
+
 
 
 
