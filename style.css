@@ -243,6 +243,7 @@ main {
 .cols {
   display: grid;
   background-color: rgba(255,255,255,0.4);
+  padding-bottom: 40px;
 }
 
 .cols li {
@@ -422,6 +423,7 @@ footer a:hover {
   color: #111;
 
 }
+
 
 
 
