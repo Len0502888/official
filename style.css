@@ -75,10 +75,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 28px;  /* 上下paddingを統一して小さく */
+  padding: 10px 28px; 
   z-index: 1000;
   background-color: #fff;
-  height: 70px;  /* 必要なら高さを固定 */
+  height: 70px; 
 }
 
 .icon a img {
@@ -426,6 +426,7 @@ footer a:hover {
   color: #111;
 
 }
+
 
 
 
