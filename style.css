@@ -370,9 +370,9 @@ footer a:hover {
 
 }.お知らせ p{
   text-align: center;
-  font-size: 15px;
-  padding-bottom: 20px;
-  padding-top: 10px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
 
 .hours-table {
@@ -399,3 +399,4 @@ footer a:hover {
   color: #111;
 
 }
+
