@@ -64,6 +64,11 @@ summary{
   padding-top: 40px;
 }
 
+div{
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
 /* ===== Header ===== */
 header {
   position: fixed;
@@ -424,6 +429,7 @@ footer a:hover {
   color: #111;
 
 }
+
 
 
 
