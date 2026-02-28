@@ -182,8 +182,8 @@ nav a:hover {
 
 /* ===== Main ===== */
 main {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .panel {
@@ -322,5 +322,6 @@ footer a:hover {
   padding-bottom: 60px;
 
 }
+
 
 
