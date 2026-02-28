@@ -367,6 +367,12 @@ footer a:hover {
   font-size: 25px;
   padding-bottom: 60px;
   padding-top: 30px;
+
+}.お知らせ p{
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .hours-table {
@@ -391,4 +397,5 @@ footer a:hover {
 
 .hours-table td {
   color: #111;
+
 }
