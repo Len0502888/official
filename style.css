@@ -327,8 +327,8 @@ footer a:hover {
 }
 
 /* SNS / 学校画像 */
-.SNS img {
-  width: 80px;
+.SNS a img {
+  width: 170px;
   padding-bottom: 20px;
 }
 
@@ -337,8 +337,8 @@ footer a:hover {
   text-align: center;
 }
 
-.school img {
-  width: 90px;
+.school a img{
+  width: 200px;
 }
 
 .school {
@@ -383,4 +383,5 @@ footer a:hover {
 
 .hours-table td {
   color: #111;
+
 }
