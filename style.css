@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1{
   font-size: 35px;
-  padding-bottom: 45px;
+  padding-bottom: 5px;
 }
 
 h2{
@@ -389,5 +389,6 @@ footer a:hover {
   color: #111;
 
 }
+
 
 
