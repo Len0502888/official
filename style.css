@@ -52,10 +52,14 @@ th, td {
   font-size: 20px;
 }
 
+
 summary{
-   font-family: "Noto Serif JP", serif;
+  font-family: "Noto Serif JP", serif;
   font-size: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
+
 /* ===== Header ===== */
 header {
   position: fixed;
@@ -385,3 +389,4 @@ footer a:hover {
   color: #111;
 
 }
+
