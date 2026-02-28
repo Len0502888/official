@@ -60,8 +60,8 @@ th, td {
 summary{
   font-family: "Noto Serif JP", serif;
   font-size: 20px;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 /* ===== Header ===== */
@@ -399,4 +399,5 @@ footer a:hover {
   color: #111;
 
 }
+
 
