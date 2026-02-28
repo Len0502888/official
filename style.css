@@ -183,6 +183,7 @@ nav a:hover {
 /* ===== Main ===== */
 main {
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .panel {
@@ -319,4 +320,5 @@ footer a:hover {
   text-align: center;
   font-size: 15px;
   padding-bottom: 60px;
+
 }
