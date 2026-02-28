@@ -52,10 +52,9 @@ th, td {
   font-size: 20px;
 }
 
-
 summary{
   font-family: "Noto Serif JP", serif;
-  font-size: 23px;
+  font-size: 20px;
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -389,6 +388,7 @@ footer a:hover {
   color: #111;
 
 }
+
 
 
 
