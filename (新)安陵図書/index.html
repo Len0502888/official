@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Anryo libraly</title>
+
+  <!-- フォント -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&family=Noto+Sans+JP:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ===== Header ===== -->
+  <header>
+    <div class="brand">
+      <div class="brand-main">ANRYO LIBRARY</div>
+      <div class="brand-sub">安陵図書館</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="#about">概要</a>
+      <a href="#guide">利用</a>
+      <a href="#stats">蔵書・席</a>
+      <a href="#events">行事</a>
+      <a href="#contact">連絡</a>
+    </nav>
+
+    <!-- Header small social icons (image version) -->
+    <div class="icon">
+      <a href="https://www.edu.pref.kagoshima.jp/sh/oshima/" target="_blank" rel="noopener noreferrer">
+        <img src="img/1.png" alt="">
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="slides" aria-hidden="true">
+      <img src="スライドショー/スラ1.jpg" class="slide" alt="">
+      <img src="スライドショー/スラ2.JPG" class="slide" alt="">
+      <img src="スライドショー/スラ3.jpg" class="slide" alt="">
+      <img src="スライドショー/スラ4.jpg" class="slide" alt="">
+      <img src="スライドショー/スラ5.jpg" class="slide" alt="">
+      <img src="スライドショー/スラ6.jpg" class="slide" alt="">
+      <img src="スライドショー/スラ7.jpg" class="slide" alt="">
+    </div>
+
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <h1>静けさから生まれる学び</h1>
+      <p class="lead">生徒の学びと読書を支える場所</p>
+    </div>
+  </section>
+
+  <!-- ===== Main ===== -->
+  <main>
+
+    <!-- About -->
+    <section id="about" class="panel">
+      <h2>図書館について</h2>
+      <p>
+        大島高校の図書館は「安陵図書館」という名称で親しまれています。この名称は、昭和25年に図書館が整備されて以来、長い歴史の中で大切に受け継がれてきたものです。館内には一般的な学習資料に加えて、奄美に関する貴重な地域資料も所蔵しており、郷土学習や調査活動にも幅広く活用できます。
+      </p>
+      <p>
+        また、静かに落ち着いて学習できる環境が整っているため、自習スペースとして利用する生徒も多く、日々の予習・復習や受験勉強の場としても適しています。生徒の皆さんが気軽に立ち寄り、学びや発見の場として親しんでいただければ幸いです。
+      </p>
+    </section>
+
+    <!-- Guide -->
+    <section id="guide" class="panel light">
+      <h2>利用案内</h2>
+
+      <div class="cols">
+        <div>
+          <h3>貸出</h3>
+          <p>冊数：<strong>5冊</strong></p>
+          <p>期間：<strong>2週間</strong></p>
+        </div>
+
+        <div>
+          <h3>ルール</h3>
+          <ul>
+            <li>館内は静かに利用してください。</li>
+            <li>飲食は原則禁止（蓋つき飲料は可）。</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>検索</h3>
+          <p>
+            <a class="btn"
+               href="https://private.calil.jp/gk-2003914-g24wh/"
+               target="_blank"
+               rel="noopener noreferrer">
+              蔵書を検索する
+            </a>
+          </p>
+          <p class="muted">Instagramも更新中：アイコンからアクセスしてください。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section id="stats" class="panel">
+      <h2>蔵書・座席・ジャンル</h2>
+
+      <h3>蔵書概要</h3>
+      <table class="info-table">
+        <tbody>
+          <tr>
+            <th>蔵書総数（冊）</th>
+            <td>約12,345 冊</td>
+          </tr>
+          <tr>
+            <th>雑誌タイトル数</th>
+            <td>120 タイトル</td>
+          </tr>
+          <tr>
+            <th>電子資料</th>
+            <td>不明</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 style="margin-top:18px">座席情報</h3>
+      <table class="info-table">
+        <tbody>
+          <tr>
+            <th>窓側席</th>
+            <td>12 席</td>
+          </tr>
+          <tr>
+            <th>楓の机（個別）</th>
+            <td>20 席</td>
+          </tr>
+          <tr>
+            <th>グループテーブル</th>
+            <td>8 席</td>
+          </tr>
+          <tr>
+            <th>合計</th>
+            <td>40 席</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 style="margin-top:18px">主な所蔵ジャンル</h3>
+      <table class="info-table">
+        <tbody>
+          <tr>
+            <th>教科書・参考書</th>
+            <td>高校教材、受験参考書</td>
+          </tr>
+          <tr>
+            <th>小説・文学</th>
+            <td>近代・現代文学、古典</td>
+          </tr>
+          <tr>
+            <th>科学・技術</th>
+            <td>理工系入門〜専門書</td>
+          </tr>
+          <tr>
+            <th>郷土資料</th>
+            <td>奄美関連の資料・研究</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Events -->
+    <section id="events" class="panel light">
+      <h2>年間行事（例）</h2>
+      <table class="calendar">
+        <tbody>
+          <tr><th>1月</th><td>新刊展示</td></tr>
+          <tr><th>2月</th><td>ビブリオバトル</td></tr>
+          <tr><th>3月</th><td>進路資料フェア</td></tr>
+          <tr><th>4月</th><td>新入生ガイダンス</td></tr>
+          <tr><th>5月</th><td>読書週間</td></tr>
+          <tr><th>6月</th><td>図書委員会ワークショップ</td></tr>
+          <tr><th>7月</th><td>夏の推薦図書</td></tr>
+          <tr><th>8月</th><td>夏季特別貸出</td></tr>
+          <tr><th>9月</th><td>調べ学習支援</td></tr>
+          <tr><th>10月</th><td>読書推進フェア</td></tr>
+          <tr><th>11月</th><td>郷土資料展示（奄美）</td></tr>
+          <tr><th>12月</th><td>年末おすすめ本</td></tr>
+        </tbody>
+      </table>
+
+      <p class="muted small">※ 上は例です。学校の年間計画に合わせて差し替えてください。</p>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="panel">
+      <h2>よくある質問</h2>
+
+      <details>
+        <summary>何冊まで借りられますか？</summary>
+        <p>最大5冊まで。貸出期間は2週間です。延長は1回まで（予約がない場合）。</p>
+      </details>
+
+      <details>
+        <summary>貸出カードを忘れた場合</summary>
+        <p>図書担当に相談してください。本人確認ができれば貸出できる場合があります。</p>
+      </details>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="panel light">
+      <h2>連絡・外部リンク</h2>
+
+      <p class="muted">所在地・学校連絡（出典：学校公式サイト）</p>
+      <p>
+        鹿児島県立大島高等学校<br>
+        〒894-8588 鹿児島県奄美市名瀬安勝町7-1<br>
+        電話：0997-52-4451
+      </p>
+
+      <p>
+        学校のお知らせ（最新情報）は公式サイトでご確認ください。<br>
+      </p>
+
+      <!-- Large social icons -->
+      <div class="SNS">
+        <h2>【図書館公式インスタグラム】</h2>
+        <a class="SNS" href="javascript:void(0)" aria-label="学校公式サイト">
+          <img src="img/3.png" alt="P" class="social-btn__img">
+        </a>
+      </div>
+
+      <div class="school">
+        <h2>【大島高校安陵図書ホームページ】</h2>
+        <a class="school" href="javascript:void(0)" aria-label="学校お知らせページ">
+          <img src="img/2.jpg" alt="" class="social-btn__img">
+        </a>
+      </div>
+
+    </section>
+
+    <!-- お知らせ -->
+    <div class="お知らせ">
+      <h3>【ホームページからのお知らせ】</h3>
+      <p>HPがリニューアルしました！</p>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>Anryo Library | Kagoshima Prefectural Oshima High School Library</p>
+    <p>
+      <a href="javascript:void(0)">Instagram</a> |
+      <a href="javascript:void(0)">School Official HP</a> |
+      <a href="javascript:void(0)">Contact</a>
+    </p>
+    <p class="copyright">© 2026 Anryo Library</p>
+    <p>Ver.1.12.1</p>
+  </footer>
+
+</body>
+</html>
