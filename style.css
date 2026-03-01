@@ -265,6 +265,10 @@ main {
 
 @media (max-width: 768px) {
 
+  html {
+    font-size: 85%;
+  }
+
   /* ヘッダー全体を少しコンパクトに */
   header {
     padding: 10px 15px;
@@ -484,6 +488,7 @@ html {
   border-radius: 16px;
   box-shadow: 0 8px 25px rgba(247,198,217,0.4);
 }
+
 
 
 
