@@ -41,7 +41,7 @@ h3 {
 }
 
 /* 本文 */
-p {
+main p {
   font-family: "Noto Serif JP", serif;
   font-weight: 300;
   font-size: 18px;
@@ -407,3 +407,4 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
