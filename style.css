@@ -204,8 +204,8 @@ nav a:hover {
 
 /* ===== Main ===== */
 main {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* panel 共通 */
@@ -490,6 +490,7 @@ html {
     line-height: 50px;
     font-size: 20px;
   }
+
 
 
 
