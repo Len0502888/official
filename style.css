@@ -307,21 +307,6 @@ main {
   border: 1px solid gray;
 }
 
-.video video {
- width: 90%;
- height: 80%;
- border-radius: 15px;
- border: 4px solid #f7c6d9;        /* 桜ピンク */
-  border-radius: 16px;              /* 角を丸く */
-  box-shadow: 0 8px 25px rgba(247,198,217,0.4); /* ふんわり影 */
-  max-width: 700px;
-}
-
-.video{
-  text-align: center;
-  padding-top: 90px;
-}
-
 
 /* ===== お知らせ ===== */
 .お知らせ span {
@@ -468,22 +453,12 @@ html {
 }
 
 .video video {
- width: 90%;
- height: 80%;
- border-radius: 15px;
- border: 4px solid #f7c6d9;        /* 桜ピンク */
-  border-radius: 16px;              /* 角を丸く */
-  box-shadow: 0 8px 25px rgba(247,198,217,0.4); /* ふんわり影 */
+  width: 90%;
   max-width: 700px;
+  height: auto;
+  border: 4px solid #f7c6d9;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(247,198,217,0.4);
 }
-
-.video{
-  text-align: center;
-  padding-top: 90px;
-}
-
-
-
-
 
 
