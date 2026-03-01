@@ -505,6 +505,81 @@ html {
 
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 28px;       /* デスクトップ用 */
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.brand-main {
+  font-family: "Noto Serif JP", serif;
+  color: #1b2a3a;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.brand-sub {
+  font-family: "Noto Serif JP", serif;
+  font-size: 16px;
+  color: black;
+}
+
+nav a {
+  margin-left: 18px;
+  text-decoration: underline;
+  color: #666;
+  font-size: 20px;
+}
+
+.icon a img {
+  width: 66px;
+  padding-top: 10px;
+}
+
+/* ===== hover ===== */
+nav a:hover {
+  color: #1b2a3a;
+}
+
+/* ===== レスポンシブ（スマホ） ===== */
+@media (max-width: 768px) {
+
+  header {
+    padding: 10px 15px;  /* 高さをコンパクトに */
+  }
+
+  .brand-main {
+    font-size: 18px;     /* メイン文字縮小 */
+  }
+
+  .brand-sub {
+    font-size: 12px;     /* サブ文字縮小 */
+  }
+
+  nav a {
+    font-size: 12px;     /* ナビリンク縮小 */
+    margin-left: 8px;
+  }
+
+  .icon a img {
+    width: 45px;         /* アイコン小さく */
+    padding-top: 5px;
+  }
+
+}
+
+
+}
+
+
+
 
 
 
