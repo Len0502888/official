@@ -203,12 +203,14 @@ nav a:hover {
   color: white;
   font-size: 55px;
   margin-bottom: 6px;
+  font-weight: 600;
 }
 
 .hero-inner p {
   color: white;
   margin: 4px 0;
-   font-size: 45px;
+ font-size: 45px;
+  font-weight: 600;
 }
 
 .hero-inner .lead {
@@ -426,6 +428,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
