@@ -70,7 +70,7 @@ a {
 th, td {
   font-family: "Noto Serif JP", serif;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 30px;
   padding: 20px;
   border: 1px solid gray;
   text-align: left;
@@ -426,6 +426,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
