@@ -231,7 +231,7 @@ main {
 }
 
 .panel p{
-  font-size: 25px;
+  font-size: 30px;
 }
 
 /* cols (二カラム等を扱う領域) */
@@ -419,6 +419,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
