@@ -263,57 +263,6 @@ main {
   padding-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-
-  html {
-    font-size: 85%;
-  }
-
-  /* ヘッダー全体を少しコンパクトに */
-  header {
-    padding: 10px 15px;
-  }
-
-  /* ANRYO LIBRARY */
-  .brand-main {
-    font-size: 18px;
-  }
-
-  /* 安陵図書館 */
-  .brand-sub {
-    font-size: 12px;
-  }
-
-  /* ナビゲーション */
-  nav a {
-    font-size: 14px;
-    margin-left: 10px;
-  }
-
-  /* アイコン小さく */
-  .icon a img {
-    width: 45px;
-  }
-
-  .back-to-top {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  width: 50px;
-  height: 50px;
-  background-color: #1b2a3a;
-  color: white;
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  border-radius: 50%;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: 0.3s;
-}
-
-}
-
 /* Tables */
 .info-table {
   width: 100%;
@@ -509,6 +458,66 @@ html {
 .video  {
  text-align: center;
 }
+
+
+@media (max-width: 768px) {
+
+
+  h1 { font-size: 28px; }
+  h2 { font-size: 22px; }
+  h3 { font-size: 20px; }
+
+  p { font-size: 14px; }
+
+  th, td { font-size: 14px; }
+
+  summary { font-size: 16px; }
+
+  /* ヘッダー全体を少しコンパクトに */
+  header {
+    padding: 10px 15px;
+  }
+
+  /* ANRYO LIBRARY */
+  .brand-main {
+    font-size: 18px;
+  }
+
+  /* 安陵図書館 */
+  .brand-sub {
+    font-size: 12px;
+  }
+
+  /* ナビゲーション */
+  nav a {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  /* アイコン小さく */
+  .icon a img {
+    width: 45px;
+  }
+
+  .back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #1b2a3a;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+}
+
 
 
 
