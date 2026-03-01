@@ -227,8 +227,8 @@ main {
 /* panel 共通 */
 .panel {
   max-width: var(--max-width, 1200px);
-  margin: 30px auto;
-  padding: 50px 12px;
+  margin: 15px auto;
+  padding: 30px 12px;
   background-color: rgba(255,255,255,0.30);
   border-radius: 8px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.03);
@@ -428,6 +428,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
