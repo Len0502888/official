@@ -87,6 +87,8 @@ summary {
 
 details p{
   font-size: 30px;
+  padding-top: 40px ;
+  padding-bottom: 40px ;
 }
 
 /* ===== Header ===== */
@@ -424,6 +426,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
