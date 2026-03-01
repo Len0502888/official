@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6,p,a{
 /* ===== 見出しサイズ（h2 と h3 を逆に） ===== */
 /* h1 はメイン見出し（大） */
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   padding-bottom: 8px;
   line-height: 1.1;
 }
@@ -194,14 +194,14 @@ nav a:hover {
 .hero-inner h1 {
   font-family: "Noto Serif JP", serif;
   color: white;
-  font-size: 50px;
+  font-size: 55px;
   margin-bottom: 6px;
 }
 
 .hero-inner p {
   color: white;
   margin: 4px 0;
-   font-size: 40px;
+   font-size: 45px;
 }
 
 .hero-inner .lead {
@@ -419,6 +419,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
