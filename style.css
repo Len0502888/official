@@ -30,7 +30,7 @@ h1 {
 
 /* 要望どおり：h2 を小さめに、h3 を大きめに設定 */
 h2 {
-  font-size: 24px; /* 元の h3 相当のサイズ（小さめ） */
+  font-size: 30px; /* 元の h3 相当のサイズ（小さめ） */
   color: var(--accent, #1b2a3a);
   margin-bottom: 12px;
 }
@@ -230,6 +230,10 @@ main {
   background-color: rgba(255,255,255,0.42);
 }
 
+.panel p{
+  font-size: 25px;
+}
+
 /* cols (二カラム等を扱う領域) */
 .cols {
   display: grid;
@@ -415,6 +419,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
