@@ -133,7 +133,7 @@ nav a:hover {
 
 /* ===== Hero ===== */
 .hero {
-  margin-top: 180px; /* header 高さ分の余白 */
+  margin-top: 150px; /* header 高さ分の余白 */
   position: relative;
   height: 800px;
   overflow: hidden;
@@ -419,6 +419,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
