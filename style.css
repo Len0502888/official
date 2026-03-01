@@ -376,7 +376,7 @@ main {
   width: 100%;
   max-width: 1200px;
   height: auto;
-  border: 8px solid #f7c6d9;
+  border: 10px solid #f7c6d9;
   border-radius: 16px;
   box-shadow: 0 8px 25px rgba(247,198,217,0.4);
 }
@@ -429,3 +429,4 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
