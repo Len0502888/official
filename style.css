@@ -401,8 +401,8 @@ main {
 /* Back to top */
 .back-to-top {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 35px;
+  right: 35px;
   width: 150px;
   height: 150px;
   background-color: #1b2a3a;
@@ -426,6 +426,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
