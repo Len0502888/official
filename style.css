@@ -108,7 +108,7 @@ header {
 }
 
 nav a {
-  margin-left: 25px;
+  margin-left: 40px;
   color: var(--muted, #666);
   font-size: 30px;
   text-decoration: underline;
@@ -407,6 +407,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
