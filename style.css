@@ -40,6 +40,10 @@ h3 {
   margin-bottom: 8px;
 }
 
+p{
+   font-family: "Noto Sans JP", sans-serif;
+}
+
 /* 本文 */
 main p {
   font-family: "Noto Serif JP", serif;
@@ -407,6 +411,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
