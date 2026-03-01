@@ -29,7 +29,7 @@ h1 {
 
 /* 要望どおり：h2 を小さめに、h3 を大きめに設定 */
 h2 {
-  font-size: 30px; /* 元の h3 相当のサイズ（小さめ） */
+  font-size: 40px; /* 元の h3 相当のサイズ（小さめ） */
   color: var(--accent, #1b2a3a);
   margin-bottom: 12px;
 }
@@ -428,6 +428,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
