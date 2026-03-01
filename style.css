@@ -205,6 +205,10 @@ nav a:hover {
   margin-bottom: 6px;
 }
 
+.hero-inner p{
+  color:white
+}
+
 .hero-inner .lead {
   color:white;
 }
@@ -527,6 +531,7 @@ html {
 }
 
 }
+
 
 
 
