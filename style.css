@@ -64,7 +64,7 @@ a {
 /* table 用共通 */
 th, td {
   font-family: "Noto Serif JP", serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 40px;
   padding: 10px;
   border: 1px solid gray;
@@ -419,6 +419,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
