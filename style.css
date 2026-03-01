@@ -76,6 +76,7 @@ summary {
   font-family: "Noto Serif JP", serif;
   font-size: 35px;
   padding-top: 50px ;
+  padding-bottom: 50px ;
   cursor: pointer;
 }
 
@@ -418,6 +419,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
