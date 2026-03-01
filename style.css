@@ -378,6 +378,7 @@ main {
   text-decoration: none;
   padding: 1px;
   cursor: default;
+  font-size: 5px;
 }
 
 .site-footer a:hover {
@@ -412,6 +413,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
