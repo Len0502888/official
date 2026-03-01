@@ -263,10 +263,34 @@ main {
   padding-bottom: 20px;
 }
 
-@media (max-width: 920px) {
-  .cols {
-    grid-template-columns: 1fr;
+@media (max-width: 768px) {
+
+  /* ヘッダー全体を少しコンパクトに */
+  header {
+    padding: 10px 15px;
   }
+
+  /* ANRYO LIBRARY */
+  .brand-main {
+    font-size: 18px;
+  }
+
+  /* 安陵図書館 */
+  .brand-sub {
+    font-size: 12px;
+  }
+
+  /* ナビゲーション */
+  nav a {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  /* アイコン小さく */
+  .icon a img {
+    width: 45px;
+  }
+
 }
 
 /* Tables */
@@ -460,5 +484,6 @@ html {
   border-radius: 16px;
   box-shadow: 0 8px 25px rgba(247,198,217,0.4);
 }
+
 
 
