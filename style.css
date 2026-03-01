@@ -423,6 +423,33 @@ footer a:hover {
 
 }
 
+/* ===== トップに戻るボタン（JSなし） ===== */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #1b2a3a;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.back-to-top:hover {
+  background-color: #333;
+  transform: translateY(-3px);
+}
+
+/* スムーズスクロール */
+html {
+  scroll-behavior: smooth;
+}
 
 
 
