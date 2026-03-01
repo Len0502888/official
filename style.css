@@ -76,7 +76,7 @@ th, td {
 summary {
   font-family: "Noto Serif JP", serif;
   font-size: 20px;
-  padding: 20px 0;
+  padding-top: 50px ;
   cursor: pointer;
 }
 
@@ -411,6 +411,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
