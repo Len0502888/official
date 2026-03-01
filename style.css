@@ -98,17 +98,17 @@ header {
   font-family: "Noto Serif JP", serif;
   color: var(--accent, #1b2a3a);
   letter-spacing: 2px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .brand-sub {
   font-family: "Noto Serif JP", serif;
-  font-size: 16px;
+  font-size: 25px;
   color: #000;
 }
 
 nav a {
-  margin-left: 18px;
+  margin-left: 25px;
   color: var(--muted, #666);
   font-size: 20px;
   text-decoration: underline;
@@ -490,5 +490,6 @@ html {
     line-height: 50px;
     font-size: 20px;
   }
+
 
 
