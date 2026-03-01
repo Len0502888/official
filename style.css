@@ -98,7 +98,7 @@ header {
   font-family: "Noto Serif JP", serif;
   color: var(--accent, #1b2a3a);
   letter-spacing: 2px;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .brand-sub {
@@ -110,7 +110,7 @@ header {
 nav a {
   margin-left: 40px;
   color: var(--muted, #666);
-  font-size: 30px;
+  font-size: 40px;
   text-decoration: underline;
 }
 
@@ -204,8 +204,8 @@ nav a:hover {
 
 /* ===== Main ===== */
 main {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /* panel 共通 */
@@ -407,6 +407,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
