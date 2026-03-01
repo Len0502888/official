@@ -112,9 +112,9 @@ header {
 }
 
 nav a {
-  margin-left: 50px;
+  margin-left: 70px;
   color: var(--muted, #666);
-  font-size: 40px;
+  font-size: 35px;
   text-decoration: underline;
 }
 
@@ -411,6 +411,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
