@@ -52,11 +52,12 @@ main p {
 /* リスト、リンク、テーブル基準 */
 li {
   list-style: none;
+  font-size: 25px;
 }
 
 a {
   font-family: "Noto Serif JP", serif;
-  font-size: 14px;
+  font-size: 25px;
   color: inherit;
   text-decoration: none;
 }
@@ -419,6 +420,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
