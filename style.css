@@ -102,7 +102,7 @@ header {
   font-family: "Noto Serif JP", serif;
   color: var(--accent, #1b2a3a);
   letter-spacing: 2px;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .brand-sub {
@@ -116,7 +116,7 @@ nav a {
   color: var(--muted, #666);
   font-size: 35px;
   text-decoration: underline;
-  padding-left: 40px;
+  padding-left: 50px;
 }
 
 nav a:hover {
@@ -124,9 +124,10 @@ nav a:hover {
 }
 
 .icon a img {
-  width: 90px;
+  width: 100px;
   padding-top: 10px;
   display: block;
+  padding-left: 10px;
 }
 
 /* ===== Hero ===== */
@@ -413,6 +414,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
