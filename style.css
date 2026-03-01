@@ -187,14 +187,14 @@ nav a:hover {
 .hero-inner h1 {
   font-family: "Noto Serif JP", serif;
   color: white;
-  font-size: 40px;
+  font-size: 45px;
   margin-bottom: 6px;
 }
 
 .hero-inner p {
   color: white;
   margin: 4px 0;
-   font-size: 35px;
+   font-size: 40px;
 }
 
 .hero-inner .lead {
@@ -490,6 +490,7 @@ html {
     line-height: 50px;
     font-size: 20px;
   }
+
 
 
 
