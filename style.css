@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-  font-size: 30px; /* 元の h2 相当のサイズ（大きめ） */
+  font-size: 25px; /* 元の h2 相当のサイズ（大きめ） */
   margin-bottom: 8px;
 }
 
@@ -419,6 +419,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
