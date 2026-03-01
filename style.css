@@ -121,7 +121,7 @@ nav a:hover {
 }
 
 .icon a img {
-  width: 100px;
+  width: 120px;
   padding-top: 10px;
   display: block;
   padding-left: 10px;
@@ -411,6 +411,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
