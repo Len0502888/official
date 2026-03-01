@@ -80,6 +80,10 @@ summary {
   cursor: pointer;
 }
 
+details p{
+  font-size: 30px;
+}
+
 /* ===== Header ===== */
 header {
   position: fixed;
@@ -411,6 +415,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
