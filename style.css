@@ -41,7 +41,7 @@ h3 {
 }
 
 p{
-   font-family: "Noto Sans JP", sans-serif;
+  font-family: "Noto Serif JP", serif;
 }
 
 /* 本文 */
@@ -411,6 +411,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
 
