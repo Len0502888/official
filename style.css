@@ -394,7 +394,7 @@ main {
   color: white;
   text-align: center;
   line-height:150px;
-  font-size: 100px;
+  font-size: 80px;
   border-radius: 50%;
   text-decoration: none;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -411,5 +411,6 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
 
