@@ -111,12 +111,12 @@ header {
   font-family: "Noto Serif JP", serif;
   color: var(--accent, #1b2a3a);
   letter-spacing: 2px;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .brand-sub {
   font-family: "Noto Serif JP", serif;
-  font-size: 25px;
+  font-size: 20px;
   color: #000;
 }
 
@@ -438,4 +438,5 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 
