@@ -302,7 +302,14 @@ main {
 }
 
 /* ===== おたより / SNS / 学校画像 ===== */
-.おたより img,
+.おたより img{
+   width: clamp(80px, 50%, 160px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 8%;
+}
+
 .SNS a img,
 .school a img {
   width: clamp(80px, 30%, 160px);
@@ -374,5 +381,6 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
