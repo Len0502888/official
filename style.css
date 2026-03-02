@@ -122,9 +122,9 @@ header {
 /* ===== nav a ===== */
 nav a {
 
-  font-size: clamp(12px, 1vw, 18px);
+  font-size: clamp(19px, 1vw, 15px);
   text-decoration: underline;
-  padding-left: clamp(8px, 0.7vw, 30px);
+  padding-left: clamp(7px, 0.6vw, 20px);
 }
 
 nav a:hover {
@@ -366,6 +366,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
