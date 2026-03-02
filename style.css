@@ -66,7 +66,7 @@ li {
 /* ===== a ===== */
 a {
   font-size: clamp(14px, 1vw, 20px);
-  color: inherit;
+  color: #111;
   text-decoration: none;
 }
 
@@ -380,6 +380,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
