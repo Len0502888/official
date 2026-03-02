@@ -81,7 +81,7 @@ td {
 
 /* ===== details / summary ===== */
 summary {
-  font-size: clamp(10px, 1vw, 15px);
+  font-size: clamp(10px, 2vw, 15px);
   padding: clamp(12px, 1vw, 40px) 0;
   cursor: pointer;
   font-family: "Noto Serif JP", serif;
@@ -124,7 +124,7 @@ header{
 }
 
 .navigation nav a{
-  color: #111;
+  color: black;
   text-decoration: underline;
   padding-left: 10px;
   font-size: 15px;
@@ -379,6 +379,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
