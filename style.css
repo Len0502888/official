@@ -81,14 +81,14 @@ td {
 
 /* ===== details / summary ===== */
 summary {
-  font-size: clamp(14px, 1vw, 24px);
+  font-size: clamp(10px, 1vw, 15px);
   padding: clamp(12px, 1vw, 40px) 0;
   cursor: pointer;
   font-family: "Noto Serif JP", serif;
 }
 
 details p {
-  font-size: clamp(14px, 1vw, 24px);
+  font-size: clamp(10px, 1vw, 15px);
   padding: clamp(8px, 1vw, 40px) 0;
   font-family: "Noto Serif JP", serif;
 }
@@ -382,6 +382,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
