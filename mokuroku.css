@@ -23,7 +23,7 @@ header{
   position: fixed;
   top: 0;
   width: 100%;
-  background: black
+  background-color: white;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -32,18 +32,20 @@ header{
   padding-top: 20px;
   padding-right: 30px;
   padding-left: 30px;
+  padding-bottom: 10px;
+  
 }
 
 .brand-main{
   font-family: "Noto Serif JP", serif;
-  font-size: 25px;
+  font-size: 20px;
+  color: black;
 }
 
 .brand-sub{
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 20px;
-}
-
+  font-size: 15px;
+  color: black;
 nav a{
   color: #111;
   text-decoration: underline;
@@ -130,3 +132,4 @@ h1{
 .back-to-top:hover{
   opacity: 0.7;
 }
+
