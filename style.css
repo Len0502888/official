@@ -95,43 +95,37 @@ details p {
 }
 
 /* ===== Header ===== */
-header{
+/* ===== Header 簡易レスポンシブ ===== */
+header {
   position: fixed;
   top: 0;
   width: 100%;
   background-color: white;
-  color: #fff;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   z-index: 1000;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 10px;
   font-family: "Noto Serif JP", serif;
+  flex-wrap: wrap; /* 小さい画面で折り返す */
 }
 
-.brand-main{
-  font-family: "Noto Serif JP", serif;
-  font-size: clamp(13px, 1vw, 16px);
+.brand-main {
+  font-size: clamp(16px, 4vw, 20px);
+  font-weight: 700;
   color: black;
   text-decoration: none;
 }
 
-.brand-sub{
-  font-family: "Noto Sans JP", sans-serif !important;
-  font-size: clamp(8px, 1vw, 11px);
-  color: black;
+nav a {
+  margin-left: 15px;
+  font-size: clamp(12px, 3vw, 16px);
+  color: #1b2a3a;
   text-decoration: none;
 }
 
-.navigation nav a{
-  
-}
-
-
-nav a:hover{
+nav a:hover {
   opacity: 0.7;
 }
 
@@ -386,6 +380,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
