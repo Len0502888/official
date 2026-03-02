@@ -68,10 +68,12 @@ nav a:hover{
 /* ===== Main ===== */
 
 main{
-  margin-top: 160px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 100px;
+   max-width: var(--max-width, 1200px);
+  margin: 15px auto;
+  padding: 30px 12px;
+  background-color: rgba(255,255,255,0.30);
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.03);
 }
 
 .panel{
@@ -135,5 +137,6 @@ h1{
 .back-to-top:hover{
   opacity: 0.7;
 }
+
 
 
