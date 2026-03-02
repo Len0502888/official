@@ -150,7 +150,7 @@ nav a:hover{
   display: flex;
   align-items: flex-end;
   justify-content: center; margin-top: clamp(100px, 12vw, 130px);
-  padding-top: clamp(80px, 10vw, 90px);
+  padding-top: clamp(80px, 7vw, 90px);
 }
 
 
@@ -386,6 +386,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
