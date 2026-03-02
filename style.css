@@ -123,7 +123,7 @@ header{
   color: black;
 }
 
-header nav a{
+.navigation nav a{
   color: #111;
   text-decoration: underline;
   padding-left: 10px;
@@ -379,6 +379,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
