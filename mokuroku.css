@@ -53,7 +53,7 @@ nav a{
   text-decoration: underline;
   padding-left: 50px;
   padding-right: 30px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 header{
@@ -140,3 +140,4 @@ h1{
 .back-to-top:hover{
   opacity: 0.7;
 }
+
