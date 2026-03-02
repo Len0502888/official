@@ -172,6 +172,13 @@ nav a:hover{
   animation: fade 35s infinite;
 }
 
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  animation: fade 35s infinite;
+}
+
 /* スライドごとの開始時間をずらす */
 .slide:nth-child(1) { animation-delay: 0s; }
 .slide:nth-child(2) { animation-delay: 5s; }
@@ -181,22 +188,22 @@ nav a:hover{
 .slide:nth-child(6) { animation-delay: 25s; }
 .slide:nth-child(7) { animation-delay: 30s; }
 
-/* フェードイン・フェードアウトのアニメーション */
+
 @keyframes fade {
   0%   { opacity: 0; }
-  2%   { opacity: 1; }
-  14%  { opacity: 1; }
-  16%  { opacity: 0; }
+  10%  { opacity: 1; }   
+  40%  { opacity: 1; } 
+  50%  { opacity: 0; }   
   100% { opacity: 0; }
 }
 
+/* オーバーレイ */
 .hero-overlay {
   position: absolute;
   inset: 0;
   background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.12));
   pointer-events: none;
 }
-
 .hero-inner {
   position: relative;
   z-index: 2;
@@ -227,6 +234,8 @@ nav a:hover{
   font-size: clamp(14px,1.5vw,24px);
   font-weight: 500;
 }
+
+
 
 /* ===== Main / Panels ===== */
 main {
@@ -379,6 +388,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
