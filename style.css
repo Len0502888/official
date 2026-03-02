@@ -33,6 +33,7 @@ h1 {
   font-size: clamp(20px, 2.5vw, 36px);
   padding-bottom: 6px;
   line-height: 1.1;
+  text-align: left;
 }
 
 /* ===== h2 ===== */
@@ -379,6 +380,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
