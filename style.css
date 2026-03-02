@@ -102,9 +102,9 @@ header{
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  padding-top: 20px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
   padding-bottom: 10px;
   font-family: "Noto Serif JP", serif;
 }
@@ -380,6 +380,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
