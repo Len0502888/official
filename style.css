@@ -111,13 +111,13 @@ header{
 
 .brand-main{
   font-family: "Noto Serif JP", serif;
-  font-size: 20px;
+  font-size: 15px;
   color: black;
 }
 
 .brand-sub{
   font-family: "Noto Sans JP", sans-serif !important;
-  font-size: 15px;
+  font-size: 10px;
   color: black;
 }
 
@@ -381,6 +381,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
