@@ -125,12 +125,7 @@ header{
 }
 
 .navigation nav a{
-  color: black;
-  text-decoration: underline;
-  padding-left: 10px;
-  font-size: 15px;
-  font-family: "Noto Sans JP", sans-serif !important;
-  font-weight: 400;
+  
 }
 
 
@@ -382,6 +377,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
