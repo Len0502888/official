@@ -207,8 +207,8 @@ nav a:hover{
   width: 90%;
   padding: clamp(8px,0.5vw,20px);
   color: #fff;
-  background-color: rgba(0,0,0,0.4);
-  border-radius: 16px;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 14px;
   text-align: center;
 }
 
@@ -380,6 +380,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
