@@ -116,7 +116,7 @@ header{
 }
 
 .brand-sub{
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Noto Sans JP", sans-serif !important;
   font-size: 15px;
   color: black;
 }
@@ -126,7 +126,7 @@ nav a{
   text-decoration: underline;
   padding-left: 10px;
   font-size: 15px;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Noto Sans JP", sans-serif !important;
 }
 
 header{
@@ -381,6 +381,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
