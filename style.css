@@ -345,7 +345,7 @@ main {
 
 .site-footer a {
   color: #fff;
-  font-size: clamp(12px,0.5vw,16px);
+  font-size: clamp(8px,0.5vw,12px);
   text-decoration: none;
 }
 
@@ -382,6 +382,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
