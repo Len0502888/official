@@ -405,7 +405,7 @@ html {
 
 .popup p{
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 
@@ -415,5 +415,6 @@ html {
   80% { opacity: 1; }  /* しばらく表示 */
   100% { opacity: 0; } /* 消える */
 }
+
 
 
