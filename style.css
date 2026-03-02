@@ -147,13 +147,14 @@ nav a:hover{
 
 /* ===== Hero ===== */
 .hero {
-  margin-top: clamp(100px, 12vw, 130px);
+  
   position: relative;
   height: clamp(300px, 40vw, 500px);
   overflow: hidden;
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: center; margin-top: clamp(100px, 12vw, 130px);
+  padding-top: clamp(100px, 12vw, 130px);
 }
 
 
@@ -380,6 +381,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
