@@ -106,7 +106,7 @@ header{
   padding-right: 30px;
   padding-left: 30px;
   padding-bottom: 10px;
-  
+  font-family: "Noto Serif JP", serif;
 }
 
 .brand-main{
@@ -374,4 +374,5 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
