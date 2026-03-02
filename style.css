@@ -383,3 +383,35 @@ html {
 
 }
 
+.popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  opacity: 1;
+  animation: fadeOut 10s forwards; /* 3秒後に消える */
+  z-index: 1000;
+  position: fixed;
+  left: 100px;
+  right: 100px;
+  top: 300px;
+  border-radius: 14px;
+  text-align: center;
+  border-color:gray;
+}
+
+.popup p{
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+}
+
+
+/* フェードアウトのアニメーション */
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  80% { opacity: 1; }  /* しばらく表示 */
+  100% { opacity: 0; } /* 消える */
+}
