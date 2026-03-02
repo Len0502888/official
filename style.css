@@ -216,12 +216,14 @@ nav a:hover{
   font-size: clamp(20px,2.5vw,36px);
   margin-bottom: 4px;
   font-weight: 600;
+  text-align: left;
 }
 
 .hero-inner p {
   font-size: clamp(16px,2vw,28px);
   margin: 2px 0;
   font-weight: 600;
+  text-align: left;
 }
 
 .hero-inner .lead {
@@ -380,6 +382,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
