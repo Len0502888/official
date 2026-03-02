@@ -81,7 +81,7 @@ td {
 
 /* ===== details / summary ===== */
 summary {
-  font-size: clamp(16px, 2vw, 28px);
+  font-size: clamp(10px, 1vw, 20px);
   padding: clamp(12px, 1vw, 40px) 0;
   cursor: pointer;
 }
@@ -366,3 +366,4 @@ html {
   scroll-behavior: smooth;
 
 }
+
