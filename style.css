@@ -124,9 +124,8 @@ header{
 nav a{
   color: #111;
   text-decoration: underline;
-  padding-left: 20px;
-  padding-right: 30px;
-  font-size: 12px;
+  padding-left: 10px;
+  font-size: 15px;
   font-family: "Noto Sans JP", sans-serif;
 }
 
@@ -381,6 +380,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
