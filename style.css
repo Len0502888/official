@@ -108,14 +108,14 @@ header {
 
 /* ===== ブランドメイン ===== */
 .brand-main {
-  font-size: clamp(20px, 2vw, 36px);
+  font-size: clamp(20px, 1vw, 25px);
   letter-spacing: 1.5px;
   color: var(--accent, #1b2a3a);
 }
 
 /* ===== ブランドサブ ===== */
 .brand-sub {
-  font-size: clamp(12px, 1vw, 18px);
+  font-size: clamp(10px, 1vw, 14px);
   color: #000;
 }
 
@@ -366,5 +366,6 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
