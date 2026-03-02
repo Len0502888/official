@@ -248,7 +248,7 @@ main {
 }
 
 .panel img{
-  width: 300px;
+  width: clamp(100px,1vw,200px);
 }
 
 /* ===== cols ===== */
@@ -366,6 +366,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 
 
 
