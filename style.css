@@ -332,7 +332,7 @@ iframe{
 }
 
 
-.SNS a img,{
+.SNS a img{
   width: clamp(70px, 25%, 140px);
   height: auto;
   display: block;
@@ -454,5 +454,6 @@ html {
   100% { opacity: 0; } /* 消える */
 
 }
+
 
 
