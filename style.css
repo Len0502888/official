@@ -271,22 +271,17 @@ main {
 }
 
 /* ===== cols ===== */
-.cols {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-  gap: clamp(6px,1vw,12px);
-  
-  padding: clamp(4px,0.5vw,8px);
-  border-radius: 6px;
+.cols{
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
 }
 
-.guide-extra {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-  gap: clamp(6px,1vw,12px);
-  margin-top: clamp(6px,1vw,12px);
+.guide-extra{
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
 }
-
 /* ===== table ===== */
 .info-table,
 .calendar,
@@ -450,4 +445,5 @@ html {
   0% { opacity: 1; }
   80% { opacity: 1; }  /* しばらく表示 */
   100% { opacity: 0; } /* 消える */
+
 }
