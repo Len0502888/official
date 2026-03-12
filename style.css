@@ -332,7 +332,14 @@ iframe{
 }
 
 
-.SNS a img,
+.SNS a img,{
+  width: clamp(70px, 25%, 140px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
 .school a img {
   width: clamp(70px, 25%, 140px);
   height: auto;
@@ -405,7 +412,7 @@ iframe{
 }
 
 .OK img{
-  width: 50px;
+  width: 45px;
 }
 
 /* ===== スムーズスクロール ===== */
@@ -447,4 +454,5 @@ html {
   100% { opacity: 0; } /* 消える */
 
 }
+
 
