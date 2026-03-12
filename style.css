@@ -328,7 +328,7 @@ main {
 
 iframe{
   width: 95%;
-  height: 50vh;
+  height: 40vh;
 }
 
 
@@ -454,6 +454,7 @@ html {
   100% { opacity: 0; } /* 消える */
 
 }
+
 
 
 
